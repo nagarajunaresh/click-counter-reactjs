@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  text-align: center;
+  background-color: #f1f5f8;
+}
+
+.heading {
+  font-size: 40px;
+  color: #2d3a35;
+  font-weight: bold;
+}
+
+.counter {
+  color: #c20a72;
+}
+
+.para {
+  font-size: 14px;
+  color: #2d3a35;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.button :hover {
+  cursor: pointer;
+  outline: none;
+  background-color: #c20a72;
+}
